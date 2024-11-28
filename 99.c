@@ -1,23 +1,3 @@
-// #include<stdio.h>
-// int main()
-// {
-//     FILE *fp;
-//     char c;
-
-    
-//     fp = fopen("hello.txt","w");
-
-//     if (fp == NULL) { perror("Error opening file"); return 1; }
-
-//     while( ( c=getchar() )!= EOF )
-//     {
-//         putc(c,fp);
-//         fclose(fp);
-//     }
-//     fclose(fp);
-//     return 0;
-// }
-
 #include <stdio.h>
 #include <ctype.h>
 
